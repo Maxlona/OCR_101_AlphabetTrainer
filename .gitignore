@@ -1,0 +1,45 @@
+# Build results
+bin/
+obj/
+Debug/
+Release/
+
+# IDE files
+.vs/
+.vscode/
+*.sln.iml
+*.user
+*.userprefs
+*.suo
+*.sln.docstates
+
+# NuGet
+.nuget/
+packages/
+*.nupkg
+*.snupkg
+
+# Local environment
+.env
+appsettings.local.json
+
+# Test results
+TestResults/
+*.trx
+
+# ML.NET models (can be large, regenerate as needed)
+models/*.zip
+
+# Generated training data (can be large, regenerate as needed)
+data/train/**/*.png
+data/train/**/*.jpg
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
